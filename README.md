@@ -1,5 +1,5 @@
 # STRATEGY FOR ACCURATE CNV DETECTION AND ML ALGORITHM FOR CLASSIFYING NGS VARIANTS 
 
-## Final Degree Project - Alba Malagon Marquez
+## Final Degree Project - Alba Malagón Márquez
 
 
