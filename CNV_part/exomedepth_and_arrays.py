@@ -4,7 +4,7 @@ Final Degree Project: 'STRATEGY FOR ACCURATE CNV DETECTION AND ML ALGORITHM FOR 
 
 Script that filters CNVs from Exome Depth and arrays with enough coverage, and stores the coincident and not coincident calls between ExomeDepth and arrays.
 
-USAGE: python3 validation.py
+USAGE: python3 exomedepth_and_arrays.py
 '''
 
 from CNV_libraries_variables import *
