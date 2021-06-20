@@ -2,11 +2,16 @@
 
 ## Final Degree Project - Alba Malagón Márquez
 
+explain a little bit the project
 
-- "CNV part"
 
-  - CNV_predictions.py: Script that predicts whether a copy number variant has been correctly called or not by taking advantage of the potential presence of small variants (SNV and INDEL) in a CNV.
-  - CNV_validationarrays_method.py: Script similar to 'CNV_predictions.py' but with small modifications to analyse CNVs coming from arrays, not ExomeDepth. 
+
+### FILES
+
+- CNV part
+
+  - [CNV_predictions.py](https://github.com/albamalagon/FinalDegreeProject/blob/main/CNV_part/CNV_predictions.py): Script that predicts whether a copy number variant has been correctly called or not by taking advantage of the potential presence of small variants (SNV and INDEL) in a CNV.
+  - [CNV_validationarrays_method.py](https://github.com/albamalagon/FinalDegreeProject/blob/main/CNV_part/CNV_validation_method.py): Script similar to 'CNV_predictions.py' but with small modifications to analyse CNVs coming from arrays, not ExomeDepth. 
   - exomedepth_and_arrays.py: Script that filters CNVs from Exome Depth and arrays with enough coverage, and stores the coincident and not coincident calls between ExomeDepth and arrays.
   - validation.py: Script to validate CNV calls between ExomeDepth, arrays and the developed method (CNV_predictions.py).
   - CNV_libraries_variables.py: all libraries and variables needed for running any of the scripts of this CNV part. 
