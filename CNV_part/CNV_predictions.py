@@ -485,7 +485,7 @@ for file_ED in alldataED:
 
 color_print('Write which run number you have predicted CNVs from:',color='red')
 num_run = input()
-allcnvs.to_csv('/Users/alba/Desktop/QGEN/cnv/CNVs_predictions_run{}.csv'.format(num_run), header=True, sep="\t")
+allcnvs.to_csv('{}/CNVs_predictions_run{}.csv'.format(os.getcwd(),num_run), header=True, sep="\t")
 
 
 #computing compatible (TP) and incompatible (FP) CNVs
