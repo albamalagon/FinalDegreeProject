@@ -32,4 +32,3 @@ All scripts are executed in the same way:
 ```
 python3 filename.py
 ```
-```
