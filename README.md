@@ -7,6 +7,8 @@
 
   - CNV_predictions.py:
   - CNV_validationarrays_method.py:
+  - validation.py:
+  - results_validation.py:
 
 
 - ML part
