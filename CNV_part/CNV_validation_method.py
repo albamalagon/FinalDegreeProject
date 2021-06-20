@@ -4,7 +4,7 @@ Final Degree Project: 'STRATEGY FOR ACCURATE CNV DETECTION AND ML ALGORITHM FOR 
 
 Script similar to 'CNV_predictions.py' but with small modifications to analyse CNVs coming from arrays, not ExomeDepth. 
 
-USAGE: python3 CNV_validationarrays_method.py
+USAGE: python3 CNV_validation_method.py
 '''
 
 from CNV_libraries_variables import *
