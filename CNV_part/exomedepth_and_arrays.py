@@ -285,7 +285,7 @@ color_print('FALSE NEGATIVE:     {}'.format(len(falseNdata)), color='magenta')
 color_print('SEGDUPS AND PSEUDOGENES:     {}'.format(len(segduppseudodata)), color='white')
 
 print('Total number of CNVs from arrays:', ia)
-print('Total number of CNVs from Exome Depth with 3 at least:', y)
+print('Total number of CNVs from Exome Depth covered:', y)
 
 
 truePdata.to_csv('{}/truePdata.csv'.format(os.getcwd()), header=True, sep="\t")
