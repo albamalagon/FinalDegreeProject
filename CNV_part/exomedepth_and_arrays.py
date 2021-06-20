@@ -302,20 +302,6 @@ print()
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 stoptime = timeit.default_timer()
 print('\n\nTime:',stoptime - starttime)
 
