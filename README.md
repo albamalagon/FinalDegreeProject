@@ -16,7 +16,7 @@ _The motivation behind this project is to reduce the time spent by the experts a
   - [CNV_libraries_variables.py](https://github.com/albamalagon/FinalDegreeProject/blob/main/CNV_part/CNV_libraries_variables.py): all libraries and variables needed for running any of the scripts of this CNV part. 
 
 
-- "ML part"
+- ML part
   - [ML_functions.py](https://github.com/albamalagon/FinalDegreeProject/blob/main/ML_part/ML_functions.py): Script that defines all funcions to be used when predicting small variants (SNPs and INDELs) using any machine learning algorithm.
   - [evaluating_algorithms.py](https://github.com/albamalagon/FinalDegreeProject/blob/main/ML_part/evaluating_algorithms.py): Script that creates and implements several machine learning algorithms to select the best one predicting small variants (SNPs and INDELs).
   - [SNPandINDEL_predictions.py](https://github.com/albamalagon/FinalDegreeProject/blob/main/ML_part/SNPandINDEL_predictions.py): Script that predicts small variants (SNPs and INDELs) using machine learning; precisely, a Random Forest algorithm.
