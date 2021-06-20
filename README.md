@@ -3,7 +3,7 @@
 ## Final Degree Project - Alba Malagón Márquez
 
 
-- 'CNV part'
+- "CNV part"
 
   - CNV_predictions.py: Script that predicts whether a copy number variant has been correctly called or not by taking advantage of the potential presence of small variants (SNV and INDEL) in a CNV.
   - CNV_validationarrays_method.py: Script similar to 'CNV_predictions.py' but with small modifications to analyse CNVs coming from arrays, not ExomeDepth. 
@@ -12,7 +12,7 @@
   - CNV_libraries_variables.py: all libraries and variables needed for running any of the scripts of this CNV part. 
 
 
-- 'ML part'
+- "ML part"
   - ML_functions.py: Script that defines all funcions to be used when predicting small variants (SNPs and INDELs) using any machine learning algorithm.
   - evaluating_algorithms.py: Script that creates and implements several machine learning algorithms to select the best one predicting small variants (SNPs and INDELs).
   - SNPandINDEL_predictions.py: Script that predicts small variants (SNPs and INDELs) using machine learning; precisely, a Random Forest algorithm.
