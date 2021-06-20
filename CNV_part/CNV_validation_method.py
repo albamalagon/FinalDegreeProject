@@ -26,8 +26,8 @@ alldataED = EDvalcob # all Exome Depth files (CNVs) already covered
 repeatmasker = pd.read_csv(RM[0].rsplit('/')[-1], sep="\t") # Repeatmasker 
 pseudogenes = pd.read_csv(pseudogenes[0], sep='\t') # Pseudogenes 
 segdups = pd.read_csv(SD[0], sep='\t') # Segmental duplications
-truePdata = pd.read_csv(TPdata, sep="\t")
-falsePdata = pd.read_csv(FPdata, sep="\t")
+truePdata = pd.read_csv(TPdata[0], sep="\t")
+falsePdata = pd.read_csv(FPdata[0], sep="\t")
 
 
 #    S T R A T E G Y    T O   P R E D I C T    C N V S   -----------------------------------------------------------
@@ -540,15 +540,6 @@ for file_ED in alldataED:
         if output1:
             allcnvsM['prob_random'].iloc[-1]=prob
 
-#removing features 
-truePdataM.drop(['OMIM', 'OMIMFeb2017', 'NqExDels',
-       'NqExDups', 'qExDels', 'qExDups', 'Unnamed: 0'], axis=1, inplace=True)
-falsePdataM.drop(['OMIM', 'OMIMFeb2017', 'NqExDels',
-       'NqExDups', 'qExDels', 'qExDups', 'Unnamed: 0'], axis=1, inplace=True)
-noinfodataM.drop(['OMIM', 'OMIMFeb2017', 'NqExDels',
-       'NqExDups', 'qExDels', 'qExDups', 'Unnamed: 0'], axis=1, inplace=True)
-superdups_pseudoM.drop(['OMIM', 'OMIMFeb2017', 'NqExDels',
-       'NqExDups', 'qExDels', 'qExDups', 'Unnamed: 0'], axis=1, inplace=True)
 
 #printing general CNVs' counts
 color_print('COMPATIBLE:     {}'.format(len(truePdataM)), color='green')
