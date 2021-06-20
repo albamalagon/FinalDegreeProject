@@ -4,7 +4,7 @@ Final Degree Project: 'STRATEGY FOR ACCURATE CNV DETECTION AND ML ALGORITHM FOR 
 
 Script that predicts small variants (SNPs and INDELs) using machine learning; precisely, a Random Forest algorithm.
 
-USAGE: python3 prediction_SNPS_INDELS.py
+USAGE: python3 SNPandINDEL_predictions.py
 '''
 
 
