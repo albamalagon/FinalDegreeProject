@@ -4,7 +4,7 @@ Final Degree Project: 'STRATEGY FOR ACCURATE CNV DETECTION AND ML ALGORITHM FOR 
 
 Script that creates and implements several machine learning algorithms to select the best one predicting small variants (SNPs and INDELs).
 
-USAGE: python3 selecting_algorithms.py
+USAGE: python3 evaluating_algorithms.py
 '''
 
 
