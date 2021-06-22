@@ -50,7 +50,7 @@ di = {'Ref': ref, 'Alt': alt, 'State' : state, 'Filter' : filterr, 'Func_refGene
 
 ops={}
 seed = 7
-numpy.random.seed(seed)
+np.random.seed(seed)
 
 
 
