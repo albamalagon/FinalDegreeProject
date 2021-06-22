@@ -51,7 +51,7 @@ di = {'Ref': ref, 'Alt': alt, 'State' : state, 'Filter' : filterr, 'Func_refGene
 
 # O T H E R      V A R I A B L E S      --------------------------------------------------------------------------------------
 seed=7
-numpy.random.seed(seed)
+np.random.seed(seed)
 ops={}
 
 
